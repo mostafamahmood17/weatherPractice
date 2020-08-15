@@ -7,7 +7,7 @@ const submit = document.getElementById("submit");
 let inputValue = document.getElementById("inputValue");
 
 
-        fetch(`http://api.openweathermap.org/data/2.5/weather?q=Dhaka&appid=b4757b81c74305575f9b10bef1a13d1e&units=metric`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=Dhaka&appid=b4757b81c74305575f9b10bef1a13d1e&units=metric`)
         .then(res => res.json())
         .then(data =>displayResults(data)) 
     
